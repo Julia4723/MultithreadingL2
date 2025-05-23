@@ -59,7 +59,6 @@ final class ComplexRaceConditionViewController: UIViewController {
         
         print("Final counter: \(counter) (ожидаем 2000)")
         print("Log count: \(log.snapshot()) (ожидаем тоже 2000, но будет меньше или краш)")
-        
     }
 }
 
