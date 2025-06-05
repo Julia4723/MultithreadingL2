@@ -18,6 +18,7 @@
 		CE3F94662DE454FE00ECD7A3 /* SafeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F94652DE454FD00ECD7A3 /* SafeSection.swift */; };
 		CE3F94682DE4563800ECD7A3 /* DataRaceSaveSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F94672DE4562900ECD7A3 /* DataRaceSaveSection.swift */; };
 		CE3F946A2DE45F0600ECD7A3 /* DataLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F94692DE45F0400ECD7A3 /* DataLoadingViewController.swift */; };
+		CE3F948D2DE9758C00ECD7A3 /* ThreadPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F948C2DE9758A00ECD7A3 /* ThreadPool.swift */; };
 		CE4D212C2DDE311F00399461 /* Livelock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D212B2DDE311300399461 /* Livelock.swift */; };
 		CE4D212E2DDEDF6600399461 /* ComplexRaceConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D212D2DDEDF5A00399461 /* ComplexRaceConditionViewController.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		CE3F94652DE454FD00ECD7A3 /* SafeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeSection.swift; sourceTree = "<group>"; };
 		CE3F94672DE4562900ECD7A3 /* DataRaceSaveSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRaceSaveSection.swift; sourceTree = "<group>"; };
 		CE3F94692DE45F0400ECD7A3 /* DataLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoadingViewController.swift; sourceTree = "<group>"; };
+		CE3F948C2DE9758A00ECD7A3 /* ThreadPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadPool.swift; sourceTree = "<group>"; };
 		CE4D212B2DDE311300399461 /* Livelock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livelock.swift; sourceTree = "<group>"; };
 		CE4D212D2DDEDF5A00399461 /* ComplexRaceConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexRaceConditionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +85,7 @@
 		0668E3572DDC33DD005EB6FF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CE3F948C2DE9758A00ECD7A3 /* ThreadPool.swift */,
 				CE3F94692DE45F0400ECD7A3 /* DataLoadingViewController.swift */,
 				CE3F94652DE454FD00ECD7A3 /* SafeSection.swift */,
 				CE4D212D2DDEDF5A00399461 /* ComplexRaceConditionViewController.swift */,
@@ -175,6 +178,7 @@
 				0668E3462DDC337A005EB6FF /* SceneDelegate.swift in Sources */,
 				0668E35D2DDC345D005EB6FF /* StarvationDemoViewController.swift in Sources */,
 				CE3F94662DE454FE00ECD7A3 /* SafeSection.swift in Sources */,
+				CE3F948D2DE9758C00ECD7A3 /* ThreadPool.swift in Sources */,
 				CE3F946A2DE45F0600ECD7A3 /* DataLoadingViewController.swift in Sources */,
 				0668E35B2DDC344F005EB6FF /* PriorityInversionViewController.swift in Sources */,
 			);
